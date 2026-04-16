@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "functions": {
+    "api/token.js": {
+      "maxDuration": 10,
+      "memory": 1024
+    },
+    "api/health.js": {
+      "maxDuration": 10
+    }
+  }
+}
