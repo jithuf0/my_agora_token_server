@@ -1,5 +1,5 @@
 {
-    "name": "agora-token-server",
+    "name": "my_agora-token-server",
     "version": "1.0.0",
     "description": "Agora token generator for Flutter live streaming",
     "main": "server.js",
