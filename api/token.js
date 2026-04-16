@@ -1,3 +1,4 @@
+// api/token.js
 module.exports = async (req, res) => {
   // Enable CORS
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -45,6 +46,7 @@ module.exports = async (req, res) => {
 
     return res.json({ token });
   } catch (error) {
+    console.error('Error:', error);
     return res.status(500).json({ error: error.message });
   }
 };
